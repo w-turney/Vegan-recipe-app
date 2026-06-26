@@ -31,7 +31,7 @@ A frontend React + TypeScript recipe app for browsing, filtering, viewing and sa
 ### Recipe page
 ![Recipe page](./screenshots/recipe-page.png)
 
-### Favourites page - conservation
+### Favourites page
 ![Favourites page](./screenshots/favourites-page.png)
 
 ---
