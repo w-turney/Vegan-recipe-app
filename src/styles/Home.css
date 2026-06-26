@@ -1,0 +1,27 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    width: 100%;
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: 3fr 4fr;
+}
+
+.hero-div {
+    background-color: #33b470;
+    padding-left: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    gap: 2rem
+}
+
+.hero-img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}

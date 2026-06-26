@@ -1,0 +1,51 @@
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: white;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #33b470
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    padding: 0
+}
+
+.nav-item {
+    padding: 0.75rem;
+    border-radius: 5px;
+    position: relative;
+}
+
+.nav-item:hover {
+    background-color: #33b470;
+}
+
+.dropdown-menu {
+    display: none;
+    list-style: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    min-width: 9rem;
+    padding: 0.5rem;
+    background-color: #88ffc0;
+}
+
+.dropdown-menu > li {
+    padding: 0.5rem 0
+}
+
+.nav-item:hover .dropdown-menu,
+.nav-item:focus-within .dropdown-menu {
+  display: block;
+}
+

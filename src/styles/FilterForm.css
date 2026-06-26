@@ -1,0 +1,22 @@
+.recipe-filter {
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+    padding: 0.2rem;
+}
+
+.recipe-filter fieldset {
+    border: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.recipe-filter legend {
+    font-weight: bold
+}
+
+.recipe-filter label {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.75rem;
+}

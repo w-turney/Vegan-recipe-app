@@ -1,0 +1,14 @@
+.recipes-container {
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.recipe-grid {
+    padding: 0 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 280px));
+    grid-auto-rows: 1fr;
+    column-gap: 1.25rem;
+}
